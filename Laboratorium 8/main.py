@@ -5,7 +5,6 @@ from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions
 
-# Z jakiegoś powodu bardzo długo czeka na RODO, podczas gdy w drugim teście jest instant
 def test_telemegazyn_tv_programme():
     driver = webdriver.Chrome(
         executable_path="./drivers/chromedriver.exe", service_log_path='NUL')
